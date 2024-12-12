@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Input tags</title>
+    <!-- internal css -->
+    <style>
+        table,th,td{
+            border: 5px solid blue;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Input Tags -->
+     <!-- create a text box -->
+      <h5>Instagram Login Page</h5>
+      <label>User Name:&nbsp;</label>
+     <input type="text" placeholder="please enter your username" required/>
+     <!-- text=both characters and numbers can accept -->
+     <!-- number= only numbers can accepted -->
+     <!-- password=characters and numbers are hide -->
+
+     <br/>
+     <br/>
+     <label>Password:&nbsp;</label>
+     <!-- nbsp = non-breaking space -->
+     <input type="password" placeholder="please enter your password" required/>
+     <br/>
+     <br/>
+     <label>Gender:&nbsp;</label>
+     <input type="radio" name="gender"/> <label>Male</label>
+     <input type="radio" name="gender"/> <label>Female</label>
+     <input type="radio" name="gender"/> <label>Other</label>
+     <hr/>
+     <!-- 8050279120 rohan kinnal sir whatsapp official number-->
+
+
+    <!-- Tables -->
+     <center>
+    <table>
+        <!-- style=border-collapse:collapse -->
+        <!-- tr=table row -->
+         <tr>
+            <!-- th = table heading -->
+            <th>Company Name</th>
+            <th>Mail ID</th>
+            <th>Phone Num.</th>
+            <th>About Us</th>
+         </tr>
+        <tr>
+            <!-- td = table data means column -->
+            <!-- rowSpan, colSpan using for the marge the rows and columns-->
+            <!-- syntax of colSpan <td colSpan="2">WIPRO</td> -->
+            <!-- syntax of colSpan <td rowSpan="2">WIPRO</td> -->
+            <td >WIPRO</td>
+            <td>abc@wipro.com</td>
+            <td>+918654578989</td>
+            <td>Wipro Itd</td>
+        </tr>
+        <tr>
+            <!-- td = table data -->
+            <td>NASA</td>
+            <td>xyz@nasa.com</td>
+            <td>+919876712234</td>
+            <td>Nasa Itd</td>
+        </tr>
+        <tr>
+            <td>DEVTOWN</td>
+            <td>xyz@devtown.com</td>
+            <td>+915635734897</td>
+            <td>DevTown Itd</td>
+        </tr>
+        <!-- cell -->
+
+    </table>
+    </center>
+</body>
+</html>

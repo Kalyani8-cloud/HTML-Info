@@ -1,0 +1,116 @@
+<!-- forms in HTML -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title=tab name -->
+    <title>Day-7 Forms in HTML</title>
+ </head>
+ <body>
+   
+   <br/>
+   <br/>
+   <hr/>
+    <!-- forms -->
+     <table>
+      <tr>
+         <td><label>User Name:&nbsp;</label></td>
+         <td><input type="text" placeholder="Enter your User Name" required/></td>
+      </tr>
+      <tr>
+         <td><lable>Password:&nbsp;</lable></td>
+         <td><input type="password" placeholder="enter your password" value="" required/></td>
+      </tr>
+      <tr>
+         <td><label>Date Of Birth:&nbsp;</label></td>
+         <td><input type="date" /></td>
+      </tr>
+      <tr>
+         <td><label>Gender:&nbsp;</label></td>
+         <td><input type="radio" name="gender"/><label>Male</label>
+            <input type="radio" name="gender" checked/><label>Female</label>
+            <input type="radio" name="gender"/><label>Other</label></td>
+      </tr>
+      <tr>
+         <td><label>Select Courses Your Aware About:&nbsp;</label></td>
+         <td><input type="checkbox" name="course" /><label>C</label>
+            <input type="checkbox" name="course" /><label>C++</label>
+            <input type="checkbox" name="course" /><label>Java</label></td>
+      </tr>
+      <tr>
+         <td><label>Choose Your Course:&nbsp;</label></td>
+         <td><select>
+            <option value="">Select Here</option>
+            <option value="web">Web Document</option>
+            <option value="ds">Data Science</option>
+            <option value="ml">Machine Learning</option>
+            <option value="ai">AI</option>
+           </select></td>
+      </tr>
+      <tr>
+         <!-- <td><label>Submit</label></td> -->
+          <td></td>
+         <td><input type="submit" /></td>
+      </tr>
+      <tr>
+         <!-- <td><label>Reset</label></td> -->
+          <td></td>
+         <td><input type="reset" /></td>
+      </tr>
+     </table>
+
+    <br/>
+    <hr/>
+     <form>
+        <label>User Name:&nbsp;</label>
+        <input type="text" placeholder="enter your user name" required/>
+        <br/>
+        <br/>
+        <lable>Password:&nbsp;</lable>
+        <input type="password" placeholder="enter your password" value="" required/>
+        <br/>
+        <br/>
+        <label>Date Of Birth:&nbsp;</label>
+        <input type="date" />
+        <br/>
+        <br/>
+        <label>Gender:&nbsp;</label>
+        <!-- select multiple lines for edit or write = ctrl + alt + arrow key(top/town) -->
+        <input type="radio" name="gender"/><label>Male</label>
+        <input type="radio" name="gender" checked/><label>Female</label>
+        <input type="radio" name="gender"/><label>Other</label>
+        <br/>
+        <br/>
+        <label>Select Courses Your Aware About:&nbsp;</label>
+        <input type="checkbox" name="course" /><label>C</label>
+        <input type="checkbox" name="course" /><label>C++</label>
+        <input type="checkbox" name="course" /><label>Java</label>
+        <br/>
+        <br/>
+
+        <label>Choose Your Course:&nbsp;</label>
+        <select>
+         <option value="">Select Here</option>
+         <option value="web">Web Document</option>
+         <option value="ds">Data Science</option>
+         <option value="ml">Machine Learning</option>
+         <option value="ai">AI</option>
+        </select>
+        <br/>
+        <br/>
+        <label>Your File:&nbsp;</label>
+        <input type="file"/>
+        <br/>
+        <br/>
+        <input type="submit" />
+        <input type="reset" />
+
+
+     </form>
+ </body>
+ </html>
+
+ <!-- HTML =  to just get some contents on screen
+  CSS = to get some styles
+  JS = to work with some logic and can make our application dynamic -->
