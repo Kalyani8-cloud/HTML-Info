@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-8 HTML video-audio iframe and semantic tags</title>
+</head>
+<body>
+    <h4>Here is our video to be displayed on UI</h4>
+    <!-- video= .mp4, audio and video= .ogg -->
+    <video controls autoplay loop width="320" height="240">
+        <!-- id="localVideo" -->
+        <source src="sample.mp4" type="video/mp4" />
+
+        <!-- <source src="" type="video/ogg" /> -->
+         Hey your browser does not support the video tag
+    </video>
+    <br/>
+    <!-- <video controls autoplay loop width="320" height="240"> -->
+        <!-- id="localVideo" -->
+        <!-- <source src="sample.mp4" type="video/mp4" /> -->
+
+        <!-- <source src="" type="video/ogg" /> -->
+         <!-- Hey your browser does not support the video tag -->
+    <!-- </video> -->
+    <!-- document.getElementById('localVideo').currentTime=10 -->
+     <br/>
+     <h4>Here is our Audio to be displayed on UI</h4>
+     <audio controls >
+        <!-- when we want to autoplay the audio = autoplay loop -->
+        <source src="file_example_MP3_700KB.mp3" type="audio/mp3"/>
+     </audio>
+     <br/>
+     <br/>
+     <!-- we want to youtube video then use the iframe -->
+     <h4>Here is our YouTube video to be displayed on UI</h4>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/FWyiYzgPNi4?si=FnLy5Ju1uYcPKbch" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

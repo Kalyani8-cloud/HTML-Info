@@ -1,0 +1,48 @@
+<!-- intro to css = cascading style sheets -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="./Styles.css" />
+    <style> 
+        span{
+            background-color: blue;
+            color: white;
+        }
+        div{
+            background-color: violet;
+            color: white;
+        }
+    </style>
+ </head>
+ <body>
+    <!-- 3 different ways to add css file to our html file
+     1)Inline css = are included within the body section
+     2)Internal/ Embedded css = are included within the head section
+     3)External css = create another file with the extention of css-->
+
+     <!-- Inline css  -->
+    <h4 style="background-color: black; color: white;"> Hiii!! How are you</h4>
+
+    <!-- Internal css  -->
+     <span> I am fine</span>
+     <div>I am good</div>
+
+     <!-- External css = create css file with the extention of the .css and add their reference in html file
+      example = Day-9.css = create this file and 
+      <link rel="stylesheet" href="Day-9.css" /> = add this reference in html file -->
+      <h4> Hey it's h4 tag </h4>
+
+     <!-- css selectors:=
+      1) Universal selectors (*)
+      2) ID selectors (#)
+      3) class selectors (.)
+      4) Element selector
+      5) selector list
+      6) Descendant selector
+      7) Direct child selector
+       -->
+ </body>
+ </html>
